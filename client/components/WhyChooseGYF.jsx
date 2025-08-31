@@ -44,6 +44,16 @@ export default function WhyChooseGYF() {
           </h2>
         </div>
 
+        {/* Subtitle */}
+        <div className="text-center mb-12">
+          <h3 className="text-3xl lg:text-4xl font-manrope font-bold text-black mb-6">
+            Seamless Integration Process
+          </h3>
+          <p className="text-xl lg:text-2xl font-manrope font-bold text-black max-w-5xl mx-auto">
+            Effortlessly connect with our Fashion Intelligence API in just a few simple steps and unlock powerful personalization to elevate your customer experience
+          </p>
+        </div>
+
         {/* Feature Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
@@ -55,9 +65,9 @@ export default function WhyChooseGYF() {
                 {feature.icon}
               </div>
               
-              <h3 className="text-2xl font-manrope font-bold text-black mb-4 text-center">
+              <h4 className="text-xl font-manrope font-bold text-black mb-4">
                 {feature.title}
-              </h3>
+              </h4>
               
               <p className="text-black font-manrope mb-6 text-center leading-relaxed">
                 {feature.description}

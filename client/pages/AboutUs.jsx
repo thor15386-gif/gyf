@@ -3,17 +3,8 @@ import Footer from '@/components/Footer';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-interface TeamMember {
-  id: number;
-  name: string;
-  role: string;
-  image: string;
-  description: string;
-  skills: string[];
-}
-
 export default function AboutUs() {
-  const teamMembers: TeamMember[] = [
+  const teamMembers = [
     {
       id: 1,
       name: "Sanidhya",
